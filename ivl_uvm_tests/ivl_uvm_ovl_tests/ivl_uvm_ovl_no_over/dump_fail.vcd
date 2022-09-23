@@ -1,0 +1,260 @@
+$date
+	Fri Sep 23 14:54:53 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1fs
+$end
+$scope module test $end
+$var wire 1 ! clk $end
+$var reg 1 " rst_n $end
+$var reg 1 # sig_1 $end
+$scope module no_over $end
+$var wire 1 $ clk $end
+$var wire 1 % enable $end
+$var wire 3 & fire [2:0] $end
+$var wire 1 ' gclk $end
+$var wire 1 ( greset $end
+$var wire 1 " reset $end
+$var wire 1 ) reset_n $end
+$var wire 1 # test_expr $end
+$var wire 1 * valid_test_expr $end
+$var wire 1 ! clock $end
+$var reg 1 + clken $end
+$var reg 1 , r_state $end
+$var integer 32 - cover_count [31:0] $end
+$var integer 32 . error_count [31:0] $end
+$scope function ovl_fire_2state_f $end
+$var integer 32 / property_type [31:0] $end
+$upscope $end
+$scope function ovl_fire_cover_f $end
+$var integer 32 0 coverage_level [31:0] $end
+$upscope $end
+$scope function ovl_fire_xcheck_f $end
+$var integer 32 1 property_type [31:0] $end
+$upscope $end
+$scope task ovl_cover_t $end
+$var reg 1024 2 cvr_msg [1023:0] $end
+$upscope $end
+$scope task ovl_error_t $end
+$var reg 1024 3 err_msg [1023:0] $end
+$var reg 128 4 err_typ [127:0] $end
+$var reg 1 5 xcheck $end
+$upscope $end
+$scope task ovl_finish_t $end
+$upscope $end
+$scope task ovl_init_msg_t $end
+$upscope $end
+$upscope $end
+$scope module u_clk_100 $end
+$var reg 1 ! clk $end
+$var reg 1 6 clk_en $end
+$var real 1 7 clk_off_period $end
+$var real 1 8 clk_on_period $end
+$var real 1 9 clk_period $end
+$scope begin cgen $end
+$upscope $end
+$upscope $end
+$scope task wait_clks $end
+$var integer 32 : num_clks [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 :
+r10 9
+r5 8
+r5 7
+16
+x5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+b0 .
+b0 -
+0,
+1+
+1*
+0)
+0(
+0'
+b0 &
+1%
+0$
+1#
+0"
+0!
+$end
+#10000000
+1$
+1'
+1!
+#15000000
+0$
+0'
+0!
+#20000000
+1$
+1'
+1!
+#25000000
+0$
+0'
+0!
+#30000000
+1$
+1'
+1!
+#35000000
+0$
+0'
+0!
+#40000000
+1$
+1'
+1!
+#45000000
+0$
+0'
+0!
+#50000000
+1,
+1$
+1'
+1)
+1(
+1"
+1!
+#55000000
+0$
+0'
+0!
+#60000000
+1$
+1'
+1!
+#65000000
+0$
+0'
+0!
+#70000000
+1$
+1'
+1!
+#75000000
+0$
+0'
+0!
+#80000000
+1$
+1'
+1!
+#85000000
+0$
+0'
+0!
+#90000000
+1$
+1'
+1!
+#95000000
+0$
+0'
+0!
+#100000000
+0,
+b1 .
+b10011110101011001001100010111110100010101010010010100100100111101010010 4
+b1010100011001010111001101110100001000000110010101111000011100000111001001100101011100110111001101101001011011110110111000100000011000110110100001100001011011100110011101100101011001000010000001110110011000010110110001110101011001010010000001100110011100100110111101101101001000000110000101101100011011000110111101110111011001010110010000100000011011010110000101111000011010010110110101110101011011010010000001110110011000010110110001110101011001010010000001101101011000010111100000100000011101000110111100100000011000010010000001110110011000010110110001110101011001010010000001101001011011100010000001110100011010000110010100100000011100100110000101101110011001110110010100100000011011010110000101111000001010110011000100100000011101000110111100100000011011010110100101101110 3
+05
+1$
+1'
+b1010 :
+0#
+1!
+#105000000
+0$
+0'
+0!
+#110000000
+1$
+1'
+1!
+#115000000
+0$
+0'
+0!
+#120000000
+1$
+1'
+1!
+#125000000
+0$
+0'
+0!
+#130000000
+1$
+1'
+1!
+#135000000
+0$
+0'
+0!
+#140000000
+1$
+1'
+1!
+#145000000
+0$
+0'
+0!
+#150000000
+1$
+1'
+1!
+#155000000
+0$
+0'
+0!
+#160000000
+1$
+1'
+1!
+#165000000
+0$
+0'
+0!
+#170000000
+1$
+1'
+1!
+#175000000
+0$
+0'
+0!
+#180000000
+1$
+1'
+1!
+#185000000
+0$
+0'
+0!
+#190000000
+1$
+1'
+1!
+#195000000
+0$
+0'
+0!
+#200000000
+1$
+1'
+1!
